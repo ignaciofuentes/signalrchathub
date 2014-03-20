@@ -4,6 +4,34 @@ body, html {
     width: 100%;
 }
 
+#discussion{
+    
+    list-style-type:none;
+}
+#discussion li{
+    
+    border-radius:3px;
+    width:70%;
+    margin-bottom:10px;
+}
+
+#discussion li.myMessage{
+        background-color: green;
+        margin-left:30px;
+    
+}
+
+#discussion li.external{
+        background-color: blue;
+        margin-left:-10px;
+    
+}
+
+#discussion span {
+    padding: 20px;
+
+}
+
 /* COMMON STYLES*/
 .view-content h1 {
     color: #42454a;
